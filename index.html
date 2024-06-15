@@ -23,17 +23,17 @@
             <div class="line3"></div>
         </div>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
+            <li><a href="#home"  onclick="document.getElementById('home').scrollIntoView()">Home</a></li>
+            <li><a href="#about" onclick="document.getElementById('about').scrollIntoView()">About Me</a></li>
             <!-- <li><a href="#">Services</a></li> -->
-            <li><a href="#">My work</a></li>
-            <li><a href="#">Contact me</a></li>
+            <li><a href="#work" onclick="document.getElementById('work').scrollIntoView()">My work</a></li>
+            <li><a href="#footer" onclick="document.getElementById('footer').scrollIntoView()">Contact me</a></li>
         </ul>
     </nav>
 
     <div class="sections">
       <div class="outer">
-        <div class="home">
+        <div class="home" id="home">
           <div class="background1"></div>
           <div class="text">
             <h2>Sunny Arts....</h2>
@@ -41,7 +41,7 @@
           </div>
         </div>
 
-        <div class="aboutme">
+        <div class="aboutme" id="about">
           <!-- <div class="background2"></div> -->
           <div class="left">
             <img src="./images/artwork.jpeg" alt="" srcset="">
@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <div class="work">
+        <div class="work" id="work">
 
           <h2> <hr class="hr1">MyWork <hr class="hr2"></h2>
           <div class="slider">
@@ -197,7 +197,7 @@
         </div>
         
 
-        <footer>
+        <footer id="footer">
           <div class="left">
             <h2>Sunny Arts..</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum eligendi itaque, quasi fuga nostrum exercitationem molestiae rem cum. Vero blanditiis quia perferendis nisi odit illo, saepe id! Et, labore porro.
